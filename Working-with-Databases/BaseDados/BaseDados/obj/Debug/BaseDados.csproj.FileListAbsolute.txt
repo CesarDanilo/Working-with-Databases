@@ -1,0 +1,11 @@
+D:\Dev\C#\BaseDados\BaseDados\bin\Debug\BaseDados.exe.config
+D:\Dev\C#\BaseDados\BaseDados\bin\Debug\BaseDados.exe
+D:\Dev\C#\BaseDados\BaseDados\bin\Debug\BaseDados.pdb
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.AssemblyReference.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.SuggestedBindingRedirects.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.Form1.resources
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.Properties.Resources.resources
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.GenerateResource.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CoreCompileInputs.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.exe
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.pdb
