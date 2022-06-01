@@ -30,6 +30,11 @@
         {
             this.label_resultado = new System.Windows.Forms.Label();
             this.List_results = new System.Windows.Forms.DataGridView();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cell = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.documents = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label_name = new System.Windows.Forms.Label();
             this.label_email = new System.Windows.Forms.Label();
             this.textBox_name = new System.Windows.Forms.TextBox();
@@ -37,11 +42,6 @@
             this.label_cell = new System.Windows.Forms.Label();
             this.label_documents = new System.Windows.Forms.Label();
             this.textBox_documents = new System.Windows.Forms.TextBox();
-            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cell = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.documents = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox_cell = new System.Windows.Forms.TextBox();
             this.btn_connect = new System.Windows.Forms.Button();
             this.btn_createTable = new System.Windows.Forms.Button();
@@ -79,6 +79,31 @@
             this.List_results.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.List_results.Size = new System.Drawing.Size(646, 225);
             this.List_results.TabIndex = 1;
+            // 
+            // id
+            // 
+            this.id.HeaderText = "ID";
+            this.id.Name = "id";
+            // 
+            // name
+            // 
+            this.name.HeaderText = "NAME";
+            this.name.Name = "name";
+            // 
+            // email
+            // 
+            this.email.HeaderText = "E-MAIL";
+            this.email.Name = "email";
+            // 
+            // cell
+            // 
+            this.cell.HeaderText = "CELL";
+            this.cell.Name = "cell";
+            // 
+            // documents
+            // 
+            this.documents.HeaderText = "RG/CPF";
+            this.documents.Name = "documents";
             // 
             // label_name
             // 
@@ -138,31 +163,6 @@
             this.textBox_documents.Size = new System.Drawing.Size(138, 20);
             this.textBox_documents.TabIndex = 9;
             // 
-            // id
-            // 
-            this.id.HeaderText = "ID";
-            this.id.Name = "id";
-            // 
-            // name
-            // 
-            this.name.HeaderText = "NAME";
-            this.name.Name = "name";
-            // 
-            // email
-            // 
-            this.email.HeaderText = "E-MAIL";
-            this.email.Name = "email";
-            // 
-            // cell
-            // 
-            this.cell.HeaderText = "CELL";
-            this.cell.Name = "cell";
-            // 
-            // documents
-            // 
-            this.documents.HeaderText = "RG/CPF";
-            this.documents.Name = "documents";
-            // 
             // textBox_cell
             // 
             this.textBox_cell.Location = new System.Drawing.Point(524, 138);
@@ -179,6 +179,7 @@
             this.btn_connect.TabIndex = 10;
             this.btn_connect.Text = "TO CONNECT";
             this.btn_connect.UseVisualStyleBackColor = true;
+            this.btn_connect.Click += new System.EventHandler(this.btn_connect_Click);
             // 
             // btn_createTable
             // 
