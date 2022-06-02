@@ -1,7 +1,9 @@
-# Working-with-Databases
+## Working-with-Databases
 
-Esse projeto estarei trabalhando com o windows forms, e conexões com o banco de dados
+#### Working-with-Databases, esse projeto estarei trabalhando com o Windows Forms, e conexões com o banco de dados.
 
-Ele e um sistema de cadastro, utilizando a linguagem C# em conjunto com a banco de dados SQLServer;
-Tendo as funções create, read, update and delete;
+><i>Ele e um sistema de cadastro, utilizando a linguagem C# em conjunto com a banco de dados SQLServer;<br> 
+>Tendo as funções create, read, update and delete;
+
+
 
