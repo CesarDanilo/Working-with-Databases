@@ -10,6 +10,11 @@
 >Having create, read, update and delete functions;
 <br>
   
- ![Project](https://user-images.githubusercontent.com/87550603/171963587-93d255ca-da33-45f8-b8f5-9d66d75450ae.png)
+![Project](https://user-images.githubusercontent.com/87550603/171963587-93d255ca-da33-45f8-b8f5-9d66d75450ae.png)
+  
+![csharp](https://img.shields.io/badge/-Csharp-05122A?style=for-the-badge&logo=csharp)&nbsp; ![dotnet](https://img.shields.io/badge/-dotnet-05122A?style=for-the-badge&logo=dotnet)&nbsp;
+
+
+
 
 
