@@ -201,6 +201,7 @@
             this.btn_insert.TabIndex = 12;
             this.btn_insert.Text = "INSERT";
             this.btn_insert.UseVisualStyleBackColor = true;
+            this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
             // btn_search
             // 

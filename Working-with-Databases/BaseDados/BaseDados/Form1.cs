@@ -95,5 +95,43 @@ namespace BaseDados
             }
             #endregion
         }
+
+        private void btn_insert_Click(object sender, EventArgs e)
+        {
+            string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
+
+            SqlCeConnection db = new SqlCeConnection(strConnection);
+
+            try
+            {
+                db.Open();
+                
+                SqlCeCommand cmd = new SqlCeCommand(); ;
+                cmd.Connection = db;
+
+                var id = Guid.NewGuid().ToString("N").GetHashCode();
+                string nome = textBox_name.Text;
+                string email = textBox_email.Text;
+                string cell = textBox_cell.Text;
+                string documents = textBox_documents.Text;
+
+
+                cmd.CommandText = $"INSERT INTO PESSOA VALUES ({id}, '{nome}', '{email}', '{cell}', '{documents}')";
+                cmd.ExecuteNonQuery();
+                
+                cmd.Dispose();
+
+                label_resultado.Text = "Inserido com súcesso!";
+
+            }catch(Exception ex)
+            {
+                label_resultado.Text = ex.Message;
+            }
+            finally
+            {
+                db.Close();
+            }
+        }
     }
 }
