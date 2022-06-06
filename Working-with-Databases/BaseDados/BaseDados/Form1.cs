@@ -2,6 +2,7 @@
 using System.Windows.Forms;
 using System.Data.SqlServerCe;
 using System.IO;
+using System.Data;
 
 namespace BaseDados
 {
@@ -98,6 +99,7 @@ namespace BaseDados
 
         private void btn_insert_Click(object sender, EventArgs e)
         {
+            #region insert
             string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
             string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
 
@@ -132,6 +134,50 @@ namespace BaseDados
             {
                 db.Close();
             }
+            #endregion
+        }
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+            label_resultado.Text = "";
+            List_results.Rows.Clear();
+
+            string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
+
+            SqlCeConnection db = new SqlCeConnection(strConnection);
+
+            try
+            {
+                string query = "SELECT * FROM PESSOA";  
+
+                if (textBox_name.Text != "")
+                {
+                    query = "SELECT * FROM PESSOA WHERE nome LIKE '" + textBox_name.Text + "'";
+                }
+
+                DataTable data = new DataTable();                                             // Não inserimos os dados direto no table 
+                SqlCeDataAdapter adapter = new SqlCeDataAdapter(query, strConnection);       // Criamos os essa classe para fazer o tratamento dos dados antes de enviarmos para tabela
+
+                db.Open();
+
+                adapter.Fill(data);
+                    
+                foreach (DataRow _data in data.Rows)                                        // DataRow -> Vai trazer a fileira dos dados, e data.Rows -> vai trazer todas as fileiras da tabela de dados
+                {
+                    List_results.Rows.Add(_data.ItemArray);                                 // Vai adicionar um item do tipo array na fileira do List_result
+                }                                                                           // O _data precisa ter a propriedade ItemArray para trazer os valores dessa fileira, se não adicionalo vai apenas trazer o tipo dela
+            }
+            catch (Exception ex)
+            {
+                List_results.Rows.Clear();
+                label_resultado.Text = ex.Message;
+            }
+            finally
+            {
+                db.Close();
+            }
+
         }
     }
 }
