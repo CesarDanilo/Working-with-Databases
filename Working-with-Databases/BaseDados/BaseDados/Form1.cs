@@ -139,6 +139,7 @@ namespace BaseDados
 
         private void btn_search_Click(object sender, EventArgs e)
         {
+            #region
             label_resultado.Text = "";
             List_results.Rows.Clear();
 
@@ -178,6 +179,43 @@ namespace BaseDados
                 db.Close();
             }
 
+            #endregion
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            #region delete
+            string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
+
+            SqlCeConnection db = new SqlCeConnection(strConnection);
+
+            try
+            {
+                db.Open();
+
+                SqlCeCommand cmd = new SqlCeCommand(); ;
+                cmd.Connection = db;
+
+                int id = (int)List_results.SelectedRows[0].Cells[0].Value;
+
+                cmd.CommandText = $"DELETE FROM PESSOA WHERE ID = '{id}'";
+                cmd.ExecuteNonQuery();
+
+                cmd.Dispose();
+
+                label_resultado.Text = "Deletado com súcesso!";
+
+            }
+            catch (Exception ex)
+            {
+                label_resultado.Text = ex.Message;
+            }
+            finally
+            {
+                db.Close();
+            }
+            #endregion
         }
     }
 }
