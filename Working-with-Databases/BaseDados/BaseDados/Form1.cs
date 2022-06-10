@@ -10,6 +10,7 @@ namespace BaseDados
     {
         public Form1()
         {
+            
             InitializeComponent();
         }
 
@@ -216,6 +217,49 @@ namespace BaseDados
                 db.Close();
             }
             #endregion
+        }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+            #region Update
+            string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
+            string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
+
+            SqlCeConnection db = new SqlCeConnection(strConnection);
+
+            try
+            {
+                db.Open();
+
+                SqlCeCommand cmd = new SqlCeCommand(); ;
+                cmd.Connection = db;
+
+                int id = (int)List_results.SelectedRows[0].Cells[0].Value;
+                string nome = textBox_name.Text;
+                string email = textBox_email.Text;
+                string cell = textBox_cell.Text;
+                string documents = textBox_documents.Text;
+
+                string query = $"UPDATE pessoa SET NOME = '{nome}', EMAIL = '{email}', CELL = '{cell}', DOCUMENTS = '{documents}' WHERE ID= '{id}'";
+                cmd.CommandText = query;
+                cmd.ExecuteNonQuery();
+
+                label_resultado.Text = "Atualizado com súcesso!";
+                cmd.Dispose();
+
+                
+
+            }
+            catch (Exception ex)
+            {
+                label_resultado.Text = ex.Message;
+            }
+            finally
+            {
+                db.Close();
+            }
+            #endregion
+
         }
     }
 }
