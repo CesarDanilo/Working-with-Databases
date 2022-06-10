@@ -14,6 +14,15 @@
   
 ![csharp](https://img.shields.io/badge/-Csharp-05122A?style=for-the-badge&logo=csharp)&nbsp; ![dotnet](https://img.shields.io/badge/-dotnet-05122A?style=for-the-badge&logo=dotnet)&nbsp;
 
+<br>
+<br>
+
+#### Para fazer o download pelo terminal use: 
+```sh
+  
+  git clone https://github.com/CesarDanilo/Working-with-Databases.git
+  
+```
 
 
 
