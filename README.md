@@ -17,13 +17,23 @@
 <br>
 <br>
 
-#### Para fazer o download pelo terminal use: 
+# Download 
 ```sh
   
   git clone https://github.com/CesarDanilo/Working-with-Databases.git
   
 ```
+  
+ <br>
+ <br>
 
+ # Configuração
+  
+ <i> Na primeira iniciação, precisa-se:
+ 
+ - Criar banco de dados 
+ - Testar conexão
+   
 
 
 
