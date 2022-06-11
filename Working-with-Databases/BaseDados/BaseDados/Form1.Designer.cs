@@ -257,9 +257,11 @@
             this.Controls.Add(this.label_name);
             this.Controls.Add(this.List_results);
             this.Controls.Add(this.label_resultado);
+            this.MaximumSize = new System.Drawing.Size(816, 489);
+            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Registration System";
             ((System.ComponentModel.ISupportInitialize)(this.List_results)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

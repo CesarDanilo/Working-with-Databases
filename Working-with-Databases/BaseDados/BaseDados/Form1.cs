@@ -27,6 +27,7 @@ namespace BaseDados
         private void btn_connect_Click(object sender, EventArgs e)
         {
             #region connection SQLServer test
+
             string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf"; // pathDatabase -> é o caminho do nosso banco de dados
             string strConection = @"DataSource = " + pathDatabase + "; password = '1234'"; // strConection -> vai ser nossa string de conexão
 
@@ -186,6 +187,7 @@ namespace BaseDados
         private void btn_delete_Click(object sender, EventArgs e)
         {
             #region delete
+
             string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
             string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
 
@@ -222,6 +224,7 @@ namespace BaseDados
         private void btn_edit_Click(object sender, EventArgs e)
         {
             #region Update
+
             string pathDatabase = Application.StartupPath + @"\db\DBSQLServer.sdf";
             string strConnection = "DataSource= " + pathDatabase + "; password='1234'";
 
@@ -234,8 +237,8 @@ namespace BaseDados
                 SqlCeCommand cmd = new SqlCeCommand(); ;
                 cmd.Connection = db;
 
-                int id = (int)List_results.SelectedRows[0].Cells[0].Value;
-                string nome = textBox_name.Text;
+                int id = (int)List_results.SelectedRows[0].Cells[0].Value;                      // Recebendo os dados dos textBox para enviar como parametros no query
+                string nome = textBox_name.Text;                                    
                 string email = textBox_email.Text;
                 string cell = textBox_cell.Text;
                 string documents = textBox_documents.Text;
@@ -247,8 +250,6 @@ namespace BaseDados
                 label_resultado.Text = "Atualizado com súcesso!";
                 cmd.Dispose();
 
-                
-
             }
             catch (Exception ex)
             {
@@ -259,7 +260,6 @@ namespace BaseDados
                 db.Close();
             }
             #endregion
-
         }
     }
 }
