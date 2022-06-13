@@ -34,5 +34,8 @@
  <br>
    
 ![Project02](https://user-images.githubusercontent.com/87550603/173209675-b5911055-a787-4472-a221-f5d8d042c13c.png)
+   
+> Usando um banco de dados direto da propria maquina
+> Que fica no diretorio do executavel
 
 
