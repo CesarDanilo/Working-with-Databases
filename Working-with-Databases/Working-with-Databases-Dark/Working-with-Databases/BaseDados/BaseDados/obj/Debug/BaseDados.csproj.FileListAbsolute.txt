@@ -1,0 +1,39 @@
+D:\Dev\C#\BaseDados\BaseDados\bin\Debug\BaseDados.exe.config
+D:\Dev\C#\BaseDados\BaseDados\bin\Debug\BaseDados.exe
+D:\Dev\C#\BaseDados\BaseDados\bin\Debug\BaseDados.pdb
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.AssemblyReference.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.SuggestedBindingRedirects.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.Form1.resources
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.Properties.Resources.resources
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.GenerateResource.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CoreCompileInputs.cache
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.exe
+D:\Dev\C#\BaseDados\BaseDados\obj\Debug\BaseDados.pdb
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\bin\Debug\BaseDados.exe.config
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\bin\Debug\BaseDados.exe
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\bin\Debug\BaseDados.pdb
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\bin\Debug\System.Data.SqlServerCe.dll
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.AssemblyReference.cache
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.SuggestedBindingRedirects.cache
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.Form1.resources
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.Properties.Resources.resources
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.GenerateResource.cache
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CoreCompileInputs.cache
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CopyComplete
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.exe
+D:\Dev\C#\Working-with-Databases\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.pdb
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\bin\Debug\BaseDados.exe.config
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\bin\Debug\BaseDados.exe
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\bin\Debug\BaseDados.pdb
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\bin\Debug\PT\System.Data.SqlServerCe.resources.dll
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.AssemblyReference.cache
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.SuggestedBindingRedirects.cache
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.Form1.resources
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.Properties.Resources.resources
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.GenerateResource.cache
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CoreCompileInputs.cache
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.csproj.CopyComplete
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.exe
+C:\Users\cesar.SEXTAFEIRA\OneDrive\Área de Trabalho\Working with Databases\Working-with-Databases-master\Working-with-Databases-master\Working-with-Databases\BaseDados\BaseDados\obj\Debug\BaseDados.pdb
