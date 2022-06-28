@@ -2,8 +2,8 @@
 
 # Working with Databases
   
-![Project](https://user-images.githubusercontent.com/87550603/171963587-93d255ca-da33-45f8-b8f5-9d66d75450ae.png)
-  
+![Project-Dark](https://user-images.githubusercontent.com/87550603/173956831-f9340c57-efd9-4d72-bd48-bd572f23f31d.png)
+
 ![csharp](https://img.shields.io/badge/-Csharp-05122A?style=for-the-badge&logo=csharp)&nbsp; ![dotnet](https://img.shields.io/badge/-dotnet-05122A?style=for-the-badge&logo=dotnet)&nbsp;
 
 
